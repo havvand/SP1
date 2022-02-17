@@ -48,10 +48,5 @@ class Ball {
     }
   }
   
-  /*void Collide() {
-  
-   
-  
-  }*/
 
 }

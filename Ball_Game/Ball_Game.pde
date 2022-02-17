@@ -51,10 +51,10 @@ void draw()
   
     for(Ball ball : balls) // Calling methods
       { 
-        ball.display();
         ball.move();
-        target.display();
         target.move();
+        ball.display();
+        target.display();
         reset();
         score();
   }
